@@ -1,0 +1,1218 @@
+//
+// insult.vocab
+//
+
+-noun-com
+оскорбление
+оскорбления
+-noun-com-dim
+оскорбленице
+-noun-en
+insult
+-adj
+оскорбительный/ая/ое/ые
+-verb-rfx
+оскорблять оскорбляй оскорбляла
+оскорбляю оскорбляешь оскорбляет оскорбил
+оскорбляем оскорбляете оскорбляют оскорбили
+-verb-pf-rfx
+оскорбить оскорби оскорбила
+оскорбил оскорблю оскорбишь оскорбит
+оскорбили оскорбим оскорбите оскорбят
+-ptcp-rfx
+оскорбляющий/ая/ее/ие
+оскорблявший/ая/ее/ие
+-ptcp-pass
+оскорбленный/ая/ое/ые
+-ptcp-pf-rfx
+оскорбивший/ая/ее/ие
+-tran
+оскорбляя оскорбляв оскорбив
+`хвалить @bad
+
+&animated
+-noun-mas
+лох
+лохи
+-noun-fem
+лохушка
+лохушки
+-noun-dim-mas
+лошок
+лошки
+-noun-aug-mas
+лошара
+лошары
+-noun-en
+goof
+-noun-en-aug
+sucker
+-adj
+лоховской/ая/ое/ие
+-adj-dim
+лошковский/ая/ое/ие
+-adj-aug
+лошарский/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-mas
+сосунок
+сосунки
+-noun-mas-dim
+сосунчик
+сосунчики
+-adj
+сосунковский/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-mas
+лошпед
+лошпеды
+-noun-mas-dim
+лошпедик
+лошпедики
+-adj
+лошпедский/ая/ое/ие
+.лох
+
+&animated
+-noun-mas
+нуб
+нубы
+-noun-mas-short
+нубчик
+нубчики
+-noun-mas-dim
+нубок
+нубки
+-noun-mas-aug
+нубище
+нубища
+-noun-mas-short-aug
+нубяра
+нубяры
+-noun-en
+newbie
+-adj
+нубский/ая/ое/ие
+нубее
+@insult @bad ^человек
+
+&animated
+-noun-mas
+дурак
+дураки
+-noun-mas-dim
+дурачок
+дурачки
+-noun-mas-aug
+дурачина
+дурачины
+-noun-fem
+дура
+дуры
+-noun-fem-dim
+дурочка
+дурочки
+-noun-en
+fool
+-adj
+дурной/ая/ое/ые
+дурнее дурнейший/ая/ее/ие
+-adj-aug
+дурнущий/ая/ее/ие
+-verb
+дуреть дурей дурела
+дурею дуреешь дуреет дурел
+дуреем дуреете дуреют дурели
+-verb-pf
+одуреть одурей одурела
+одурел одурею одуреешь одуреет
+одурели одуреем одуреете одуреют
+-ptcp-pf
+одуревший/ая/ее/ие
+-tran
+дурея дурев одурев
+@insult @bad ^человек
+
+&animated
+-noun-fem
+тупица
+тупицы
+-noun-en
+dumbass
+-adv
+тупо
+-adv-en
+dumb
+-adj-short
+туп тупа тупо тупы
+-adj
+тупой/ая/ое/ые
+тупее тупейший/ая/ее/ие
+-adj-dim
+тупенький/ая/ое/ие
+-adj-aug
+тупущий/ая/ее/ие
+@insult @bad ^человек
+
+&animated
+-noun-mas
+идиот
+идиоты
+-noun-mas-dim
+идиотик
+идиотики
+-noun-mas-aug
+идиотище
+идиотища
+-noun-fem
+идиотка
+идиотки
+-noun-en
+idiot
+-adv
+идиотски
+-adj
+идиотский/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-fem
+скотина
+скотины
+-adj
+скотский/ая/ое/ие
+@insult @bad
+
+&animated
+-noun-mas
+олень
+олени
+-adj
+олений/яя/ее/ие
+@insult @bad ^животное
+
+&animated
+-noun-mas
+осел
+ослы
+-noun-en
+donkey
+-adj
+ослиный/ая/ое/ые
+ослинее
+@insult @bad ^animal
+
+&animated
+-noun-mas
+баран
+бараны
+-noun-fem
+овца
+овцы
+-noun-fem-dim
+овечка
+овечки
+-noun-en
+sheep
+-adj
+бараний/яя/ее/ие
+баранее
+@insult @bad ^animal
+
+&animated
+-noun-mas
+мудак
+мудаки
+-noun-mas-dim
+мудачок
+мудачки
+-noun-mas-aug
+мудачище
+мудачищи
+-noun-en
+asshole
+-adv
+мудацки
+-adj
+мудацкий/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-fem
+сука
+суки
+-noun-fem-dim
+сучка
+сучки
+-noun-fem-aug
+сучара
+сучары
+-noun-en
+bitch
+-adj
+сучий/ья/ье/ие
+сучее
+@insult @bad
+
+&animated
+-noun-fem
+свинья
+свиньи
+-noun-fem-aug
+свинота
+свиноты
+-noun-en
+pig
+-adv
+свински
+-adj
+свинский/ая/ое/ие
+свинячее
+@insult @bad ^животное
+
+&animated
+-noun-fem
+тварь
+твари
+-noun-fem-aug
+тварина
+тварины
+@insult @bad
+
+&animated
+-noun-mas
+говнюк
+говнюки
+-noun-mas-dim
+говнючок
+говнючки
+-adj
+говнючий/ая/ее/ие
+говнючее
+@insult @bad ^человек
+
+&animated
+-noun-mas
+пидор
+пидоры
+-noun-mas-dim
+пидорок
+пидорки
+-noun-mas-aug
+пидрила
+пидрилы
+-noun-en
+faggot
+-noun-en-dim
+fag
+-adv
+пидорски
+-adj
+пидорский/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-mas
+пидорас
+пидорас
+-noun-mas-dim
+пидорасик
+пидорасики
+-noun-fem-aug
+пидорасина
+пидорасины
+.пидор
+
+&animated
+-noun-mas
+пидарас
+пидарасы
+-noun-mas-dim
+пидарасик
+пидарасики
+-noun-fem-aug
+пидарасина
+пидарасины
+.пидор
+
+&animated
+-noun-mas
+педик
+педики
+.пидор
+
+-noun-fem
+залупа
+залупы
+-noun-en
+dickhead
+-adv
+залупно
+-adj
+залупный/ая/ое/ые
+залупнее
+@insult @bad ^bodypart
+
+&animated
+-noun-fem
+собака
+собаки
+-adj
+собачий/ая/ее/ие
+-adj-dim
+собачий/ья/ье/ьи
+@insult @bad ^животное
+
+&animated
+-noun-mas
+пес
+псы
+-noun-fem-aug
+псина
+псины
+-adj
+псиный/ая/ое/ые
+@insult @bad ^животное
+
+&animated
+-noun-fem
+сволочь
+сволочи
+-adj
+сволочной/ая/ое/ые
+сволочнее
+@insult @bad
+
+&animated
+-noun-mas
+дибил
+дибилы
+-noun-mas-aug
+дибилоид
+дибилоиды
+-adv
+дибильно
+-adj-short
+дебилен дебильна дебильно дебильны
+-adj
+дибильный/ая/ое/ые
+дибильнее дибильнейший/ая/ее/ие
+-adj-dim
+дибильненький/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-fem
+соска
+соски
+-noun-fem-dim
+сосочка
+сосочки
+-noun-en
+sucker
+-verb
+сосать соси сосала
+сосу сосешь сосет сосал
+сосем сосете сосут сосали
+-verb-pf
+пососать пососи пососала
+пососал пососу пососешь пососет
+пососали пососем пососете пососут
+-ptcp
+сосущий/ая/ее/ие
+сосавший/ая/ее/ие
+-ptcp-pf
+пососавший/ая/ее/ие
+-tran
+сося сосав пососав
+@insult @bad
+
+-noun-fem
+жопа
+жопы
+-noun-dim-fem
+жопка
+жопки
+-noun-aug-com
+жопище
+жопища
+-noun-en
+ass
+-adj
+жопный/ая/ое/ые
+-adj-dim
+жопненький/ая/ое/ие
+-adj-aug
+жопошный/ая/ое/ые
+@insult @bad ~жопа ^bodypart
+
+&animated
+-noun-mas
+дурень
+дурни
+-noun-en
+moron
+@insult @bad .дурак
+
+&animated
+-noun-mas
+дурошлеп
+дурошлепы
+-noun-fem
+дурошлепка
+дурошлепки
+@insult @bad .дурак
+
+&animated
+-noun-mas
+придурок
+придурки
+-adj-short
+придурочен придурочна придурочно придурочны
+-adj
+придурочный/ая/ое/ые
+придурочнее
+-adj-dim
+придурковатый/ая/ое/ые
+@insult @bad ^человек
+
+&animated
+-noun-mas
+паскуда
+паскуды
+-noun-mas-dim
+паскуденыш
+паскуденыши
+-noun-mas-aug
+паскудище
+паскудищи
+-adv
+паскудно
+-adj-short
+паскуден паскудна паскудно паскудны
+-adj
+паскудный/ая/ое/ые
+паскуднее паскуднейший/ая/ее/ие
+-adj-dim
+паскудненький/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-fem
+мразь
+мрази
+-noun-fem-aug
+мразота
+мразоты
+-noun-en
+scum
+-adv
+мразотно
+-adj-short
+мразотен мразотна мразотно мразотны
+-adj
+мразотный/ая/ое/ые
+мразотнее мразотнейший/ая/ее/ие
+-adj-dim
+мразотненький/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-mas
+ублюдок
+ублюдки
+-noun-en
+bastard
+-adv
+ублюдочно
+-adj-short
+ублюдочен ублюдочна ублюдочно ублюдочны
+-adj
+ублюдочный/ая/ое/ые
+ублюдочнее ублюдочнейший/ая/ее/ие
+@insult @bad ^человек
+
+&animated
+-noun-mas
+долбоклюй
+долбоклюи
+@insult @bad ^человек
+
+&animated
+-noun-fem
+обезьяна
+обезьяны
+-noun-com-aug
+обезьянище
+обезьянищи
+-noun-en
+monkey
+-adj
+обезьяний/яя/ее/ие
+@insult @bad ^animal
+
+&animated
+-noun-mas
+бомж
+бомжи
+-adv
+бомжовски
+-adj
+бомжовский/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-mas
+бич
+бичи
+-noun-fem-aug
+бичара
+бичары
+-noun-en
+hobo
+-adj
+бичевский/ая/ое/ие
+@insult @bad .бомж
+
+&animated
+-noun-mas
+баклан
+бакланы
+-noun-mas-aug
+бакланище
+бакланища
+-adj
+бакланский/ая/ое/ие
+@insult @bad ^животное
+
+&animated
+-noun-mas
+балбес
+балбесы
+@insult @bad ^человек
+
+&animated
+-noun-fem
+балда
+балды
+@insult @bad ^человек
+
+&animated
+-noun
+бездарь
+бездари
+@insult @bad ^человек
+
+&animated
+-noun-mas
+болван
+болваны
+-noun-mas-dim
+болванчик
+болванчики
+-adj
+болванский/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-com
+быдло
+-adj
+быдлянский/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-mas
+гад
+гады
+-noun-mas-dim
+гаденыш
+гаденыши
+-noun-fem-aug
+гадина
+гадины
+-adv
+гадски
+-adj
+гадский/ая/ое/ие
+@insult @bad
+
+&animated
+-noun-mas
+гандон
+гандоны
+-noun-mas-aug
+гандонище
+гандонища
+-adv
+гандонски
+-adj
+гандонский/ая/ое/ие
+@insult @bad
+
+&animated
+-noun-fem
+гнида
+гниды
+-adv
+гнидски
+-adj
+гнидский/ая/ое/ие
+@insult @bad
+
+-noun-com
+говно
+говны
+-noun-com-aug
+говнище
+говнищи
+-adj
+говеный/ая/ое/ые
+говенее
+-adj-dim
+говененький/ая/ое/ие
+-adj-aug
+говнищенский/ая/ое/ие
+@insult @bad
+
+&animated
+-noun-mas
+говноед
+говноеды
+-noun-com-aug
+говноедище
+говноедища
+-adj
+говноедский/ая/ое/ие
+@insult @bad #говно ^человек
+
+&animated
+-noun-mas
+даун
+дауны
+-noun-mas-dim
+дауненок
+дауненки
+-adv
+даунски
+-adj
+даунский/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-mas
+дегенерат
+дегенераты
+-noun-mas-dim
+дегенератик
+дегенератики
+-noun-mas-aug
+дегенератище
+дегенератища
+-adv
+дегенератски
+-adj
+дегенератский/ая/ое/ие
+@insult @bad ^человек
+
+-noun-com
+дерьмо
+-noun-com-dim
+дерьмецо
+-noun-com-aug
+дерьмище
+-noun-en
+shit
+-adj
+дерьмовый/ая/ое/ые
+дерьмовее дерьмовейший/ая/ее/ие
+-adj-dim
+дерьмовенький/ая/ое/ие
+@insult @bad #говно
+
+&animated
+-noun-mas
+дятел
+дятлы
+-noun-com-aug
+дятлище
+дятлища
+@insult @bad ^животное
+
+-noun-fem
+задница
+задницы
+-noun-en
+ass
+@insult @bad ~жопа ^bodypart
+
+&animated
+-noun-mas
+имбецил
+имбецилы
+-noun-mas-aug
+имбецилище
+имбецилища
+-adv
+имбецильски
+-adj
+имбецильский/ая/ое/ие
+@insult @bad ^человек
+
+-noun-fem
+какашка
+какашки
+-noun-fem-dim
+какашечка
+какашечки
+-adj
+какашечный/ая/ое/ые
+@insult @bad ^говно
+
+&animated
+-noun-mas
+козел
+козлы
+-noun-mas-aug
+козлище
+козлища
+-adj
+козлиный/ая/ое/ые
+@insult @bad ^животное
+
+&animated
+-noun-mas
+кретин
+кретины
+-noun-mas-aug
+кретинище
+кретинища
+-adv
+кретински
+-adj
+кретинский/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-fem
+крыса
+крысы
+-noun-en
+rat
+-adj
+крысиный/ая/ое/ые
+@insult @bad ^животное
+
+&animated
+-noun-fem
+макака
+макаки
+@insult @bad ^животное
+
+&animated
+-noun-mas
+недоносок
+недоноски
+@insult @bad ^человек
+
+&animated
+-noun-mas
+недоумок
+недоумки
+@insult @bad ^человек
+
+&animated
+-noun-com
+ничтожество
+ничтожества
+@insult @bad ^человек
+
+&animated
+-noun-mas
+олигофрен
+олигофрены
+@insult @bad ^человек
+
+&animated
+-noun-mas
+олух
+олухи
+@insult @bad ^человек
+
+&animated
+-noun-mas
+петух
+петухи
+-noun-mas-dim
+петушок
+петушки
+-noun-mas-aug
+петушара
+петушары
+-adj
+петушиный/ая/ое/ые
+петушинее
+-adj-aug
+петушарный/ая/ое/ые
+@insult @bad ^животное
+
+-noun-fem
+срань
+срани
+@insult @bad #говно
+
+-noun-com
+убожество
+убожества
+@insult @bad
+
+&animated
+-noun-mas
+урод
+уроды
+-noun-mas-dim
+уродец
+уродцы
+-noun-com-aug
+уродище
+уродища
+-noun-fem
+уродина
+уродины
+-noun-fem-dim
+уродка
+уродки
+-adv
+уродски
+-adj
+уродский/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-mas
+ушлепок
+ушлепки
+-noun-mas-aug
+ушлепище
+ушлепища
+@insult @bad ^человек
+
+&animated
+-noun-mas
+черт
+черты
+-noun-mas-aug
+чертила
+чертилы
+-adj
+чертовый/ая/ое/ые
+@insult @bad
+
+&animated
+-noun-fem
+шлюха
+шлюхи
+-noun-fem-aug
+шлендра
+шлендры
+-adj
+шлюховской/ая/ое/ие
+@insult @bad ^человек
+
+&animated
+-noun-fem
+шалава
+шалавы
+@insult @bad .шлюха
+
+&animated
+-noun-fem
+шваль
+@insult @bad
+
+&animated
+-noun-fem
+шмара
+шмары
+-noun-fem-aug
+шмарище
+шмарища
+@insult @bad .шлюха
+
+&animated
+-noun-mas
+щенок
+щенки
+@insult @bad ^животное ^собака
+
+&animated
+-noun-mas
+опущенец
+опущенцы
+-adj-short
+опущен опущена опущено опущены
+-adj
+опущенный/ая/ое/ые
+опущеннее
+@insult @bad
+
+&animated
+-noun-mas
+выпердыш
+выпердыши
+@insult @bad ^человек
+
+&animated
+-noun-mas
+гей
+геи
+-noun-mas-dim
+гомик
+гомики
+-noun-en
+gay
+-adv
+гейски
+-adj
+гейский/ая/ое/ие
+@insult @bad .пидор
+
+&animated
+-noun-mas
+глист
+глисты
+@insult @bad ^животное
+
+&animated
+-noun-mas
+глупец
+глупцы
+-adj-short
+глуп глупа глупо глупы
+-adj
+глупый/ая/ое/ые
+глупее глупейший/ая/ее/ие
+@insult @bad ^человек
+
+&animated
+-noun-mas
+додик
+додики
+@insult @bad ^человек
+
+&animated
+-noun-mas
+дрищ
+дрищи
+@insult @bad ^человек
+
+&animated
+-noun-fem
+говнина
+говнины
+@insult @bad #говно
+
+-noun-fem
+срака
+сраки
+@insult @bad ~жопа ^bodypart
+
+-noun-fem
+срань
+срани
+-adj
+сраный/ая/ое/ые
+сранее
+@insult @bad ^говно
+
+-noun-mas
+анус
+анусы
+@insult @bad ~жопа
+
+-noun-fem
+гниль
+гнили
+-noun-en
+rot
+-adj
+гнилой/ая/ое/ые
+гнилее гнилейший/ая/ее/ие
+-adj-dim
+гнилущий/ая/ее/ие
+-adj-en
+rotten
+@insult @bad
+
+-noun-com
+очко очка очку очко очком очке
+очки очков очкам очки очками очках
+-adv
+очково
+-adj
+очковый/ая/ое/ые
+очковее
+@insult @bad ~жопа
+
+&animated
+-noun-fem
+тряпка
+тряпки
+-noun-fem-dim
+тряпочка
+тряпочки
+@insult @bad
+
+&animated
+-noun-mas
+слабак
+слабаки
+-noun-mas-dim
+слабачок
+слабачки
+@insult @bad
+
+-noun-mas
+хер
+херы
+-noun-mas-dim
+херок
+херки
+-adv
+херово
+-adj
+херовый/ая/ое/ые
+херовее херовейший/ая/ее/ие
+-adj-dim
+херовенький/ая/ое/ие
+@insult @bad
+
+-noun-mas
+хрен
+хрены
+-adv
+хреново
+-adj
+хреновый/ая/ое/ые
+хреновее хреновейший/ая/ее/ие
+-adj-dim
+хреновенький/ая/ое/ие
+@insult @bad
+
+-noun-fem
+дыра
+дыры
+-noun-fem-dim
+дырка
+дырки
+-noun-fem-dim-short
+дырочка
+дырочки
+-noun-fem-aug
+дырища
+дырищи
+-noun-en
+hole
+-adj
+дырявый/ая/ое/ые
+дырявее дырявейший/ая/ее/ие
+-adj-dim
+дырявенький/ая/ое/ие
+@insult @bad
+
+&animated
+-noun-fem
+чушка
+чушки
+-noun-mas-aug
+чушпан
+чушпаны
+@insult @bad
+
+-noun-fem
+вафля
+вафли
+-noun-mas-aug
+вафлер
+вафлеры
+@insult @bad
+
+&animated
+-noun-mas
+долбень
+-noun-mas-dim
+долбик
+@insult @bad
+
+-noun-mas
+пентюх
+пентюхи
+@insult @bad
+
+&animated
+-noun-mas-dim
+голубок
+голубки
+-adj
+голубой/ая/ое/ые
+голубее
+@insult @bad .пидор
+
+&animated
+-noun-mas
+позорник
+позорники
+-adj
+позорный/ая/ое/ые
+позорнее позорнейший/ая/ее/ие
+@insult @bad
+
+&animated
+-noun-mas
+сопляк
+сопляки
+-noun-mas-dim
+соплячок
+соплячки
+-noun-fem
+соплячка
+соплячки
+@insult @bad
+
+&animated
+-noun-mas
+соплежуй
+соплежуи
+-noun-mas-dim
+соплежуйчик
+соплежуйчики
+-noun-fem
+соплежуйка
+соплежуйки
+@insult @bad
+
+&animated
+-noun-mas
+чурка чурки чурке чурку чуркой чурке
+чурки чурок чуркам чурок чурками чурках
+-noun-mas-aug
+чурек
+чуреки
+@insult @bad
+
+&animated
+-noun-mas
+школьник
+школьники
+-noun-mas-off
+школота
+-noun-fem
+школьница
+школьницы
+-noun-en
+schoolboy
+@insult @bad

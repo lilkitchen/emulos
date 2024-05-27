@@ -1,0 +1,1658 @@
+//
+// foob.vocab
+//
+
+-noun-fem
+еда
+-noun-en
+food
+-noun-verb-com
+поедание
+поедания
+-verb-rfx
+есть ешь ела
+ем ешь ест ел
+едим едите едят ели
+-verb-en
+eat ate eaten
+-verb-pf
+поесть поешь поела
+поел поем поешь поест
+поели поедим поедите поедят
+-adj
+съедобный/ая/ое/ые
+съедобнее съедобнейший/ая/ее/ие
+-adj-dim
+съедобненький/ая/ое/ие
+-adj-en
+edible
+-ptcp
+едящий/ая/ее/ие
+евший/ая/ее/ие
+-ptcp-pf
+поевший/ая/ее/ие
+-ptcp-pass
+едимый/ая/ое/ые
+-ptcp-pf-pass
+поеденный/ая/ое/ые
+-tran
+едя ев поев
+^энергия ^топливо
+~пища ~хавать `блевать
+@can @good
+
+-noun-fem
+пища
+-noun-verb-com
+питание
+-verb-rfx
+питать питай питала
+питаю питаешь питает питал
+питаем питаете питают питали
+-ptcp-rfx
+питающий/ая/ее/ие
+питавший/ая/ее/ие
+-tran-rfx
+питая питав
+@can @good ~кушать ~поесть
+
+-noun-com
+кушанье
+кушанья
+-verb
+кушать кушай кушала
+кушаю кушаешь кушает кушал
+кушаем кушаете кушают кушали
+-verb-pf
+покушать покушай покушала
+покушал покушаю покушаешь покушает
+покушали покушаем покушаете покушают
+-ptcp
+кушающий/ая/ее/ие
+кушавший/ая/ее/ие
+-ptcp-pf
+покушавший/ая/ее/ие
+-ptcp-pass
+кушаемый/ая/ое/ые
+-tran
+кушая кушав покушав
+@can @good ~питаться
+
+-noun-fem
+хавка
+-verb
+хавать хавай хавала
+хаваю хаваешь хавает хавал
+хаваем хаваете хавают хавали
+-verb-pf
+схавать схавай схавала
+схавал схаваю схаваешь схавает
+схавали схаваем схаваете схавают
+-ptcp
+хавающий/ая/ее/ие
+хававшие/ая/ее/ие
+-ptcp-pass
+хаваемое/ая/ое/ые
+-ptcp-pf
+схавывающий/ая/ее/ие
+-ptcp-pass-pf
+схаваный/ая/ое/ые
+-tran
+хавая хавав схавав
+.еда
+
+-noun-com
+питье
+-verb-rfx
+пить пей пила
+пью пьешь пьет пил
+пьем пьете пьют пили
+-verb-en
+drink drank drank
+-verb-pf
+выпить выпей выпила
+выпил выпью выпьешь выпьет
+выпили выпьем выпьете выпьют
+-ptcp
+пьющий/ая/ее/ие
+пивший/ая/ее/ие
+-ptcp-pf
+выпивший/ая/ее/ие
+-tran
+пья пив выпив
+@can @bad
+
+-noun-com
+бухло
+-noun-en
+booze
+-verb
+бухать бухай бухала
+бухаю бухаешь бухает бухал
+бухаем бухаете бухают бухали
+-ptcp
+бухающий/ая/ее/ие
+бухавший/ая/ее/ие
+-tran
+бухая бухав
+@bad @scorn
+
+-noun-mas
+алкоголь
+-noun-en
+alcohol
+-adj
+алкогольный/ая/ое/ые
+@bad
+
+-noun-mas
+вкус
+вкусы
+-noun-en
+taste
+-adj
+вкусный/ая/ое/ые
+вкуснее вкуснейший/ая/ее/ие
+-adj-en
+tasty
+
+-noun-mas
+хлеб
+хлеба
+-noun-dim-mas
+хлебушек
+хлебушки
+-noun-en
+bread
+-adj
+хлебный/ая/ое/ые
+^food ^pastry
+
+-noun-com
+мясо
+-noun-com-dim
+мяско
+-noun-com-aug
+мясище
+-noun-en
+meat
+-adj
+мясной/ая/ое/ые
+мяснее
+^food
+
+-noun-mas
+сок
+соки
+-noun-dim
+сочок
+сочки
+-noun-en
+juice
+-adv
+сочно
+-adj-short
+сочен сочна сочно сочны
+-adj
+сочный/ая/ое/ые
+сочнее сочнейший/ая/ее/ие
+-adj-dim
+сочненький/ая/ое/ие
+^жидкость ^напиток ^food
+
+-noun-mas
+сыр
+сыры
+-noun-short
+сырок
+сырки
+-noun-short-dim
+сырочек
+сырочки
+-noun-en
+cheese
+-adj
+сырный/ая/ое/ые
+сырнее
+^food
+
+-noun-fem
+котлета
+котлеты
+-noun-fem-dim
+котлетка
+котлетки
+-noun-en
+meatball
+-adj
+котлетный/ая/ое/ые
+^food ^мясо
+
+-noun-mas
+бургер
+бургеры
+-noun-en
+burger
+-adj
+бургерный/ая/ое/ые
+^food
+
+-noun-mas
+картофель
+картофели
+-noun-fem
+картошка
+картошки
+-noun-fem-dim
+картошечка
+картошечки
+-adj
+картофельный/ая/ое/ые
+^food
+
+-noun-com
+молоко
+-noun-com-dim
+молочко
+-noun-en
+milk
+-adj
+молочный/ая/ое/ые
+^food #белое
+
+-noun-fem
+каша
+каши
+-noun-fem-dim
+кашка
+кашки
+-noun-en
+porridge
+^food
+
+-noun-fem
+крупа
+крупы
+-adj
+крупяной/ая/ое/ые
+^food
+
+-noun-fem
+греча
+-noun-fem-short
+гречка
+-noun-fem-aug
+гречиха
+-noun-en
+buckwheat
+-adj
+гречневый/ая/ое/ые
+^food ^крупа ^каша
+
+-noun-mas
+рис
+-noun-en
+rice
+-adj
+рисовый/ая/ое/ые
+^food ^крупа ^каша
+
+-noun-mas
+горох
+-noun-en
+peas
+^food ^крупа
+
+-noun-fem
+пшено
+-adj
+пшенный/ая/ое/ые
+^food ^крупа ^каша
+
+-noun-fem
+перловка
+-adj
+перловый/ая/ое/ые
+^food ^крупа ^каша
+
+-noun-fem
+манка
+-adj
+манный/ая/ое/ые
+^food ^крупа ^каша
+
+-noun-fem
+мука
+-noun-en
+flour
+-adj
+мучной/ая/ое/ые
+^food
+
+-noun-com
+тесто
+-noun-en
+dough
+^food
+
+-noun-com
+масло
+масла
+-noun-com-dim
+маслице
+маслица
+-noun-en
+butter
+-adj
+масляный/ая/ое/ые
+^food
+
+-noun-com
+масло
+масла
+-noun-com-dim
+маслице
+маслица
+-adj
+масляный/ая/ое/ые
+-noun-en
+oil
+^food
+
+-noun-mas
+бутерброд
+бутерброды
+-noun-mas-short
+бутер
+бутеры
+-adj
+бутербродный/ая/ое/ые
+^food
+
+-noun-mas
+сахар
+сахара
+-noun-mas-dim
+сахарок
+сахарки
+-noun-en
+sugar
+-adj
+сахарный/ая/ое/ые
+^food #sweet
+
+-noun-fem
+соль
+соли
+-noun-en
+salt
+-adj
+соленый/ая/ое/ые
+^food @taste #белая ^seasoning
+
+-noun-mas
+суп
+супы
+-noun-mas-dim
+супчик
+супчики
+-noun-mas-aug
+супец
+супцы
+-noun-en
+soup
+-adj
+суповой/ая/ое/ые
+^food
+
+-noun-mas
+борщ
+борщи
+-noun-mas-dim
+борщик
+борщики
+-noun-mas-aug
+борщец
+борщецы
+-noun-en
+borscht
+-adj
+борщевой/ая/ое/ые
+^food ^суп
+
+-noun-fem
+выпечка
+выпечки
+-noun-en
+pastry
+^food
+
+-noun-fem
+булка
+булки
+-noun-fem-dim
+булочка
+булочки
+^food ^pastry
+
+-noun-com
+печенье
+печенья
+-noun-fem-dim
+печенька
+печеньки
+-noun-en
+cookie
+^food ^pastry
+
+-noun-mas
+пончик
+почники
+-noun-en
+donut
+-adj
+пончиковый/ая/ое/ые
+^food #круглый ^pastry
+
+-noun-fem
+говядина
+-noun-fem-dim
+говядинка
+-noun-en
+beef
+-adj
+говяжий/ая/ее/ие
+^food ^meat
+
+-noun-fem
+свинина
+-noun-en
+pork
+-adj
+свиной/ая/ое/ые
+^food ^meat
+
+-noun-fem
+баранина
+-adj
+бараний/яя/ее/ие
+^food ^meat
+
+-noun-fem
+курятина
+^food ^meat
+
+-noun-fem
+форель
+форели
+^food ^fish
+
+-noun-fem
+горбуша
+горбуши
+^food ^fish
+
+-noun-fem
+приправа
+приправы
+-verb
+приправлять приправляй приправляла
+приправляю приправляешь приправляет приправлял
+приправляем приправляете приправляют приправляли
+-verb-pf
+приправить приправь приправила
+приправил приправлю приправишь приправит
+приправили приправим приправите приправят
+-ptcp-pass
+приправленный/ая/ое/ые
+-noun-en
+seasoning
+^food
+
+-adj
+острый/ая/ое/ые
+острее острейший/ая/ее/ие
+-adj-dim
+остренький/ая/ое/ие
+-adj-en
+hot
+@taste
+
+-adj
+островатый/ая/ое/ые
+островатее
+.острый
+
+-noun-mas
+перец
+перцы
+-noun-mas-dim
+перчик
+перчики
+-verb
+перчить перчи перчила
+перчу перчишь перчит перчил
+перчим перчите перчат перчили
+-noun-en
+pepper
+^food #острый ^seasoning
+
+-noun-fem
+горчица
+горчицы
+-noun-fem-dim
+горчичка
+горчички
+-adj
+горчичный/ая/ое/ые
+^food #острая ^seasoning
+
+-noun-mas
+соус
+соусы
+-noun-en
+sauce
+^food
+
+-noun-mas
+кетчуп
+кетчупы
+-noun-en
+ketchup
+^food #помидор #красный ^sauce
+
+-noun-mas
+майонез
+майонезы
+-noun-en
+mayonnaise
+^food #белый ^sauce
+
+-noun-mas
+фрукт
+фрукты
+-noun-en
+fruit
+-adj
+фруктовый/ая/ое/ые
+^food
+
+-noun-mas
+овощ
+овощи
+-noun-en
+vegetable
+^food
+
+-noun-mas
+яблоко
+яблоки
+-noun-mas-dim
+яблочко
+яблочки
+-noun-en
+apple
+-adj
+яблочный/ая/ое/ые
+^food ^fruit
+
+-noun-fem
+груша
+груши
+-noun-fem-dim
+грушка
+грушки
+-noun-en
+pear
+-adj
+грушевый/ая/ое/ые
+^food ^fruit
+
+-noun-mas
+банан
+бананы
+-noun-mas-dim
+бананчик
+бананчики
+-noun-en
+banana
+-adj
+банановый/ая/ое/ые
+^food #желтый ^fruit
+
+-noun-mas
+сладость
+сладости
+-adj
+сладкий/ая/ое/ие
+слаже
+-adj-en
+sweet
+^food @taste
+
+-noun-mas
+шоколад
+-noun-en
+chocolate
+-adj
+шоколадный/ая/ое/ые
+шоколаднее
+^food ^sweet
+
+-noun-fem
+шоколадка
+шоколадки
+^food .шоколад
+
+-noun-com
+варенье
+варенья
+-noun-en
+jam
+^food ^sweet
+
+-noun-fem
+ягода
+ягоды
+-noun-fem-dim
+ягодка
+ягодки
+-noun-en
+berry
+-adj
+ягодный/ая/ое/ые
+ягоднее
+^food
+
+-noun-fem
+малина
+малины
+-noun-fem-dim
+малинка
+малинки
+-noun-en
+raspberry
+-adj
+малиновый/ая/ое/ые
+малиновее
+^food ^color #красный ^berry
+
+-noun-fem
+клубника
+клубники
+-noun-fem-dim
+клубничка
+клубнички
+-noun-en
+strawberry
+-adj
+клубничный/ая/ое/ые
+^food #красный ^berry
+
+-noun-fem
+черника
+-adj
+черничный/ая/ое/ые
+^food #круглая ^berry
+
+-noun-fem
+облепиха
+облепихи
+-adj
+облепиховый/ая/ое/ые
+^food #круглая #оранжевый ^berry
+
+-noun-mas
+апельсин
+апельсины
+-noun-fem-dim
+апельсинка
+апельсинки
+-noun-en
+orange
+-adj
+апельсиновый/ая/ое/ые
+^food #круглый #оранжевый ^fruit
+
+-noun-mas
+мандарин
+мандарины
+-noun-fem-dim
+мандаринка
+мандаринки
+-noun-en
+mandarin
+-adj
+мандариновый/ая/ое/ые
+^food #круглый #оранжевый ^fruit
+
+-noun-mas
+помидор
+помидоры
+-noun-fem-dim
+помидорка
+помидорки
+-noun-en
+tomato
+-adj
+помидорный/ая/ое/ые
+^food #красный #круглый ^vegetable
+
+-noun-mas
+томат
+томаты
+-noun-en
+tomato
+-adj
+томатный/ая/ое/ые
+^food #красный #круглый ^vegetable .помидор
+
+-noun-mas
+огурец
+огурцы
+-noun-mas-dim
+огурчик
+огурчики
+-noun-en
+cucumber
+-adj
+огуречный/ая/ое/ые
+^food #зеленый ^vegetable
+
+-noun-fem
+морковь
+-noun-fem-dim
+морковка
+морковки
+-noun-fem-short
+морковочка
+морковочки
+-noun-en
+carrot
+-adj
+морковный/ая/ое/ые
+морковнее
+^food #оранжевая ^vegetable
+
+-adj
+кислый/ая/ое/ые
+кислее кислейший/ая/ее/ие
+-adj-en
+sour
+@taste
+
+-noun-fem
+горечь
+-adj
+горький/ая/ое/ие
+-adj-en
+bitter
+@taste @bad
+
+-noun-mas
+лимон
+лимоны
+-noun-mas-dim
+лимончик
+лимончики
+-adj
+лимонный/ая/ое/ые
+лимоннее
+^food #круглый #кислый #желтый ^fruit
+
+-noun-fem
+сметана
+-noun-fem-dim
+сметанка
+-noun-en
+sourcream
+-adj
+сметанный/ая/ое/ые
+^food ^sauce
+
+-noun
+сливки
+сливки
+-adj
+сливочный/ая/ое/ые
+сливочнее
+^food
+
+-noun-com
+яйцо
+яйца
+-noun-com-dim
+яичко
+яички
+-noun-en
+egg
+-adj
+яичный/ая/ое/ые
+^food #круглое #белое
+
+-noun-fem
+яичница
+яичницы
+-noun-fem-dim
+яишенка
+яишенки
+^food #яйцо
+
+-noun-mas
+творог
+твороги
+-noun-mas
+творожок
+творожки
+-adj
+творожный/ая/ое/ые
+творожнее
+^food
+
+-noun-mas
+напиток
+напитки
+-noun-mas-dim
+напиточек
+напиточки
+-noun-en
+beverage
+^food ^жидкость
+
+-noun-com
+пиво
+-noun-com-dim
+пивко
+-noun-mas-aug
+пивас
+-noun-en
+beer
+-adj
+пивной/ая/ое/ые
+^food ^напиток ^alcohol @bad @scorn
+
+-noun-mas
+чай
+чаи
+-noun-mas-dim
+чаек
+-noun-en
+tea
+-adj
+чайный/ая/ое/ые
+^food ^напиток
+
+-noun-mas
+кофе кофе кофе кофе кофе кофе
+-noun-en
+coffee
+-adj
+кофейный/ая/ое/ые
+^food ^напиток
+
+-noun-mas
+компот
+компоты
+-noun-mas-dim
+компотик
+компотики
+-adj
+компотный/ая/ое/ые
+^food ^напиток
+
+-noun-mas
+кефир
+кефиры
+-noun-mas-dim
+кефирчик
+кефирчики
+^food ^напиток
+
+-noun-mas
+квас
+квасы
+-noun-mas-dim
+квасок
+кваски
+-adj
+квасной/ая/ое/ые
+^food ^напиток
+
+-noun-fem
+газировка
+газировки
+-noun-fem-dim
+газировочка
+газировочки
+-noun-en
+soda
+^food ^напиток
+
+-noun-fem
+кола
+колы
+-noun-en
+cola
+^food ^напиток ^газировка
+
+-noun-com
+пепси пепси пепси пепси пепси пепси
+-noun-en
+pepsi
+^food ^напиток ^газировка
+
+-noun-mas
+пирог
+пироги
+-noun-mas-dim
+пирожок
+пирожки
+-noun-mas-dim-short
+пирожочек
+пирожочки
+-noun-en
+pie
+-adj
+пироговый/ая/ое/ые
+-adj-dim
+пирожковый/ая/ое/ые
+^food ^pastry
+
+-noun-fem
+кукуруза
+кукурузы
+-noun-fem-dim
+кукурузка
+кукурузки
+-noun-en
+corn
+-adj
+кукурузный/ая/ое/ые
+^food
+
+-noun-fem
+капуста
+капусты
+-noun-fem-dim
+капустка
+капустки
+-noun-en
+cabbage
+-adj
+капустный/ая/ое/ые
+^food
+
+-noun-mas
+лук
+луки
+-noun-mas-dim
+лучок
+лучки
+-noun-en
+onion
+-adj
+луковый/ая/ое/ые
+^food #острый #приправа
+
+-noun-mas
+чеснок
+чесноки
+-noun-mas-dim
+чесночок
+чесночки
+-noun-en
+garlic
+-adj
+чесночный/ая/ое/ые
+^food #острый #приправа
+
+-noun-mas
+лимонад
+-noun-en
+lemonade
+-adj
+лимонадный/ая/ое/ые
+^food ^напиток
+
+-noun-fem
+овсянка
+овсянки
+-noun-fem-dim
+овсяночка
+овсяночки
+-adj
+овсяный/ая/ое/ые
+^food ^каша
+
+-noun-mas
+арбуз
+арбузы
+-noun-mas-dim
+арбузик
+арбузики
+-noun-en
+watermelon
+-adj
+арбузный/ая/ое/ые
+^food ^fruit
+
+-noun-fem
+тыква
+тыквы
+-noun-fem-dim
+тыковка
+тыковки
+-noun-en
+pumpkin
+-adj
+тыквенный/ая/ое/ые
+^food ^vegetable
+
+-noun-mas
+баклажан
+баклажаны
+-adj
+баклажанный/ая/ое/ые
+^food ^vegetable
+
+-noun-mas
+кабачок
+кабачки
+-noun-mas-dim
+кабачочек
+кабачочки
+-adj
+кабачковый/ая/ое/ые
+^food ^vegetable
+
+-noun-mas
+харчо
+^food ^суп
+
+-noun-mas
+хотдог
+хотдоги
+-noun-en
+hotdog
+^food
+
+-noun-fem
+сосиска
+сосиски
+-noun-fem-dim
+сосисочка
+сосисочки
+-noun-en
+sausage
+-adj
+сосисочный/ая/ое/ые
+^food ^meat
+
+-noun-fem
+колбаса
+колбасы
+-noun-fem-dim
+колбаска
+колбаски
+-noun-en
+sausage
+-adj
+колбасный/ая/ое/ые
+^food ^meat
+
+-noun-mas
+окорок
+окороки
+-noun-mas-dim
+окорочок
+окорочки
+-adj
+окорочковый/ая/ое/ые
+^food ^meat
+
+-noun-fem
+ветчина
+ветчины
+-noun-mas-dim
+ветчинка
+ветчинки
+-adj
+ветчинный/ая/ое/ые
+^food ^meat
+
+-noun-fem
+семечка
+семечки
+^food
+
+-noun-fem
+слива
+сливы
+-adj
+сливовый/ая/ое/ые
+^food ^fruit
+
+-noun-fem
+вишня
+вишни
+-noun-fem-dim
+вишенка
+вишенки
+-adj
+вишневый/ая/ое/ые
+^food ^berry
+
+-noun-com
+повидло
+-noun-en
+jam
+-adj
+повидловый/ая/ое/ые
+^food ^sweet
+
+-noun-com
+сало
+^food
+
+-noun-fem
+смородина
+смородины
+-noun-fem-dim
+смородинка
+смородинки
+-adj
+смородиновый/ая/ое/ые
+^food ^berry
+
+-noun-fem
+ваниль
+-noun-en
+vanilla
+-adj
+ванильный/ая/ое/ые
+^food ^приправа
+
+-noun-fem
+репа
+репы
+-noun-fem-dim
+репка
+репки
+^food ^vegetable
+
+-noun-fem
+свекла
+свеклы
+-noun-en
+beetroot
+-adj
+свекольный/ая/ое/ые
+свекольнее
+^food ^vegetable
+
+-noun-fem
+пицца
+пиццы
+^food ^pastry #сыр
+
+-noun-fem
+трубочка
+трубочки
+^food ^pastry ^sweet @like
+
+-noun-fem
+вафля
+вафли
+-noun-fem-dim
+вафелька
+вафельки
+-adj
+вафельный/ая/ое/ые
+^food ^pastry ^sweet @like
+
+-noun-mas
+плов
+пловы
+^food
+
+-noun-mas
+чипс
+чипсы
+^food
+
+-noun-mas
+салат
+салаты
+-noun-mas-dim
+салатик
+салатики
+-adj
+салатный/ая/ое/ые
+^food
+
+-noun-mas
+бисквит
+бисквиты
+-noun-mas-dim
+бисквитик
+бисквитики
+-adj
+бисквитный/ая/ое/ые
+^food
+
+-noun-fem
+лепешка
+лепешки
+-noun-fem-dim
+лепешечка
+лепешечки
+^food ^pastry
+
+-noun-com
+вино
+вина
+-noun-com-dim
+винишко
+винишки
+-adj
+винный/ая/ое/ые
+^food ^alcohol ^напиток @bad
+
+-noun-fem
+водка
+водки
+-noun-fem-dim
+водочка
+водочки
+-adj
+водочный/ая/ое/ые
+^food ^alcohol ^напиток @bad @scorn
+
+-noun-fem
+макарона
+макароны
+-noun-fem-dim
+макарошка
+макарошки
+-noun-en
+pasta
+-adj
+макаронный/ая/ое/ые
+^food
+
+-noun-fem
+фрикаделина
+фрикаделины
+-noun-fem-dim
+фрикаделька
+фрикадельки
+-adj
+фрикадельный/ая/ое/ые
+^food ^meat
+
+-noun-mas
+бульон
+бульоны
+-noun-mas-dim
+бульончик
+бульончики
+-noun-en
+broth
+-adj
+бульонный/ая/ое/ые
+^food
+
+-noun-mas
+блин
+блины
+-noun-mas-dim
+блинчик
+блинчики
+-noun-en
+pancake
+-adj
+блинный/ая/ое/ые
+^food ^pastry
+
+-noun-mas
+леденец
+леденцы
+-noun-en
+lollypop
+-adj
+леденцовый/ая/ое/ые
+^food ^sweet
+
+-noun-fem
+фасоль
+-adj
+фасольный/ая/ое/ые
+^food
+
+-noun-mas
+йогурт
+йогурты
+-adj
+йогуртный/ая/ое/ые
+^food
+
+-noun-mas
+орех
+орехи
+-noun-mas-dim
+орешек
+орешки
+-adj
+ореховый/ая/ое/ые
+^food
+
+-noun-mas
+арахис
+арахисы
+-adj
+арахисовый/ая/ое/ые
+^food
+
+-noun-fem
+карамель
+-noun-en
+caramel
+-adj
+карамельный/ая/ое/ые
+^food ^sweet
+
+-noun-mas
+изюм
+изюмы
+^food ^sweet
+
+-noun-fem
+курага
+-adj
+кураговый/ая/ое/ые
+^food ^sweet
+
+-noun-mas
+чернослив
+черносливы
+-adj
+черносливывой/ая/ое/ые
+^food ^sweet
+
+-noun-mas
+виноград
+винограды
+-noun-mas-dim
+виноградик
+виноградики
+-noun-en
+grape
+-adj
+виноградный/ая/ое/ые
+^food ^fruit
+
+-noun-fem
+пахлава
+^food ^sweet
+
+-noun-fem
+халва
+-adj
+халвовый/ая/ое/ые
+^food ^sweet
+
+-noun-mas
+сухарь
+сухари
+-noun-mas-dim
+сухарик
+сухарики
+-adj
+сухарный/ая/ое/ые
+^food
+
+-noun-mas
+крекер
+крекеры
+-adj
+крекерный/ая/ое/ые
+^food ^pastry
+
+-noun-fem
+репа
+репы
+-noun-fem-dim
+репка
+репки
+^food ^vegetable
+
+-noun-mas
+мармелад
+мармелады
+-noun-fem-dim
+мармеладка
+мармеладки
+-adj
+мармеладный/ая/ое/ые
+^food ^sweet
+
+-noun-mas
+стейк
+стейки
+^food ^meat
+
+-noun-mas
+батон
+батоны
+-noun-mas-dim
+батончик
+батончики
+-noun-en
+loaf
+^food ^pastry ^bread
+
+-noun-mas
+гриб
+грибы
+-noun-mas-dim
+грибочек
+грибочки
+-noun-en
+mushroom
+-adj
+грибной/ая/ое/ые
+^food
+
+-noun-mas
+шампиньон
+шампиньоны
+-noun-mas-dim
+шампиньончик
+шампиньончики
+^food ^mushroom
+
+-noun-mas
+бекон
+беконы
+-noun-mas-dim
+бекончик
+бекончики
+-adj
+беконный/ая/ое/ые
+^food ^meat ^свинина
+
+-noun-fem
+моцарела
+^food ^cheese
+
+-noun-mas
+пармезан
+пармезаны
+-noun-mas-dim
+пармезанчик
+пармезанчики
+^food ^cheese
+
+-noun-mas
+ананас
+ананасы
+-noun-mas-dim
+ананасик
+ананасики
+-noun-en
+pineapple
+-adj
+ананасный/ая/ое/ые
+^food ^fruit
+
+-noun-mas
+имбирь
+-noun-en
+ginger
+-adj
+имбирный/ая/ое/ые
+^food
+
+-noun-mas
+сэндвич
+сэндвичи
+-noun-mas-short
+сендвич
+сендвичи
+-noun-en
+sandwich
+^food
+
+-noun-mas
+макарун
+макаруны
+^food ^pastry
+
+-noun-mas
+джем
+джемы
+^food ^sweet
+
+-noun-mas
+ролл
+роллы
+^food
+
+-noun-mas
+суши
+суши
+^food
+
+-noun-mas
+сюрстреминг
+сюрстреминги
+^food
+
+-noun-fem
+сельдь
+сельди
+-noun-fem-dim
+селедка
+селедки
+-adj
+селедочный/ая/ое/ые
+^food ^fish
+
+-noun-mas
+лосось
+лососи
+-adj
+лососевый/ая/ое/ые
+^food ^fish
+
+-noun-fem
+икра
+икры
+-noun-en
+caviar
+-adj
+икровый/ая/ое/ые
+^food
+
+-noun-fem
+камбала
+камбалы
+^food ^fish
+
+-noun-fem
+ряженка
+ряженки
+^food ^напиток
+
+-noun-fem
+брокколи
+^food ^капуста
+
+-noun-mas
+сельдерей
+сельдереи
+-adj
+сельдереевый/ая/ое/ые
+^food ^vegetable
+
+-noun-fem
+спаржа
+спаржи
+-adj
+спаржевый/ая/ое/ые
+^food
+
+-noun-mas
+дуриан
+дурианы
+^food ^fruit
+
+-noun-fem
+земляника
+земляники
+-noun-fem-dim
+земляничка
+землянички
+-adj
+земляничный/ая/ое/ые
+^food ^berry
+
+-noun-fem
+голубика
+голубики
+^food ^berry
+
+-noun-fem
+ежевика
+ежевики
+-adj
+ежевичный/ая/ое/ые
+^food ^berry
+
+-noun-mas
+шашлык
+шашлыки
+-noun-mas-dim
+шашлычок
+шашлычки
+-adj
+шашлычный/ая/ое/ые
+^food ^meat @like
+
+-noun-mas
+пельмень
+пельмени
+-noun-mas-dim
+пельмешек
+пельмешки
+-adj
+пельменный/ая/ое/ые
+^food
+
+-noun-mas
+чебурек
+чебуреки
+-noun-mas-dim
+чебуречек
+чебуречки
+^food

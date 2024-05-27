@@ -1,0 +1,14 @@
+//
+// obscene.mind
+//
+
++@obscene
+	-> "Следи за языком" -> $grudge
+	-> "Это что такое началось" -> $grudge
+	-> "Помолчи" -> $grudge
+	-> "Помой рот с мылом" -> $grudge
+	-> "Что за слова" -> $grudge
+	-> "Ууууу" -> $grudge
+	-> $grudge
+	$grudge
+		-> $grudge

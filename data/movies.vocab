@@ -1,0 +1,913 @@
+//
+// movies.vocab
+//
+
+-noun-mas
+фильм
+фильмы
+-noun-dim-mas
+фильмец
+фильмецы
+-noun-en
+movie
+-noun-en-dim
+film
+@prefer
+
+-noun-com
+кино
+-noun-mas-dim
+кинчик
+кинчики
+-noun-fem-dim
+киношка
+киношки
+.фильм
+
+-noun-mas
+триллер
+триллеры
+-noun-mas-dim
+триллерок
+триллерки
+-noun-en
+thriller
+@movie_genre #movie
+
+-noun-mas
+боевик
+боевики
+-noun-dim-mas
+боевичок
+боевички
+@movie_genre #movie
+
+-noun-fem
+драма
+драмы
+-noun-fem-dim
+драмка
+драмки
+-noun-en
+drama
+@movie_genre #movie
+
+-noun-fem
+комедия
+комедии
+-noun-dim
+comedy
+@movie_genre #movie
+
+-noun-fem
+мелодрама
+мелодрамы
+-noun-fem-dim
+мелодрамка
+мелодрамки
+@movie_genre #movie
+
+-noun-fem
+документалка
+документалки
+@movie_genre #movie
+
+-noun-mas
+вестерн
+вестерны
+@movie_genre #movie
+
+&animated
+-noun-mas
+режиссер
+режиссеры
+-noun-mas-dim
+режиссерчик
+режиссерчики
+-noun-mas-aug
+режиссерище
+режиссерища
+-noun-fem-off
+режиссеришка
+режиссеришки
+-noun-en
+director
+-adj
+режиссерский/ая/ое/ие
+-verb
+режиссировать режиссируй режиссировала
+режиссирую режиссируешь режиссирует режиссировал
+режиссируем режиссируете режиссируют режиссировали
+-verb-en
+direct directed directed
+-verb-pf
+срежиссировать срежиссируй срежиссировала
+срежиссировал срежиссирую срежиссируешь срежиссирует
+срежиссировали срежиссируем срежиссируете срежиссируют
+-ptcp-pass
+режиссируемый/ая/ое/ые
+-tran
+режиссируя режиссировав срежиссировав
+#movie ^человек @transitive
+
+&animated
+-noun-mas
+актер
+актеры
+-noun-mas-off
+актеришка
+актеришки
+-noun-fem
+актриса
+актрисы
+-noun-fem-dim
+актриска
+актриски
+-noun-fem-off
+актрисулька
+актрисульки
+-noun-en
+actor
+-noun-fem-en
+actress
+-adv
+актерски
+-adj
+актерский/ая/ое/ие
+#movie ^человек
+
+// Films
+
+-noun-mas
+титаник
+титаники
+-noun-en
+titanic
+^movie #cameron
+
+-noun-mas
+отступники
+отступники
+^movie
+
+-noun-mas
+ирландец
+-noun-en
+irishman
+^movie
+
+-noun-mas
+крысятник
+^movie #ozon
+
+-noun-mas
+бэтмен
+-noun-mas-short
+бетмен
+-noun-en
+batman
+^movie #nolan
+
+// Names
+
+&animated
+-noun-mas
+франсуа
+-noun-mas-off
+франсуашка
+-noun-en
+francois
+@name @male ^француз ^человек
+
+&animated
+-noun-mas
+озон
+озоны
+-noun-en
+ozon
+@surname ^director @male ^француз ^человек
+
+&animated
+-noun-mas
+кассель
+-noun-en
+cassel
+@surname ^actor @like @male ^француз ^человек
+
+&animated
+-noun-mas
+депп
+-noun-en
+depp
+@surname ^actor @male ^американец ^человек
+
+&animated
+-noun-mas
+леонардо
+-noun-en
+leonardo
+@name @male ^американец ^человек
+
+&animated
+-noun-mas
+дикаприо
+-noun-en
+dicaprio
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+спилберг
+-noun-en
+spielberg
+@surname @male ^director ^американец ^человек
+
+&animated
+-noun-mas
+ноэ
+@surname @male ^director ^french ^человек
+
+&animated
+-noun-mas
+коэн
+-noun-en
+coen
+@surname @male ^director ^американец ^человек
+
+&animated
+-noun-mas
+михалков
+@surname @male ^actor ^director ^русский ^человек
+
+&animated
+-noun-mas
+изотов
+@surname @male ^director ^русский ^человек
+
+&animated
+-noun-mas
+гибсон
+@surname @male ^director ^actor ^американец ^человек
+
+&animated
+-noun-mas
+кэмерон
+-noun-en
+cameron
+@surname @male ^director ^canadian ^человек
+
+&animated
+-noun-mas
+иствуд
+-noun-en
+eastwood
+@surname @male ^director ^actor ^американец ^человек
+
+&animated
+-noun-mas
+уиллис
+-noun-mas-short
+виллис
+-noun-en
+willis
+@surname @male ^director ^actor ^американец ^человек
+
+&animated
+-noun-mas
+питт
+-noun-en
+pitt
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+клуни
+-noun-en
+clooney
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+сталлоне
+-noun-en
+stallone
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+скорсезе
+@surname @male ^director ^американец ^человек
+
+&animated
+-noun-mas
+дауни
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+круз
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+смит
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+тарантино
+-noun-en
+tarantino
+@surname @male ^actor ^director ^американец ^человек
+
+&animated
+-noun-mas
+джилленхол
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+макконахи
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+афлек
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+хэнкс
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+дэймон
+-noun-mas-short
+деймон
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+кейдж
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+дениро
+-noun-mas-short
+ниро
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+купер
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+уолберг
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+дизель
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+сэндлер
+-noun-mas-short
+сендлер
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+нортон
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+лабаф
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+пачино
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+финчер
+@surname @male ^director ^американец ^человек
+
+&animated
+-noun-mas
+бертон
+@surname @male ^director ^американец ^человек
+
+&animated
+-noun-mas
+катчер
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+фриман
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+аллен
+@surname @male ^actor ^director @scorn ^американец ^человек
+
+&animated
+-noun-mas
+спейси
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+руфало
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+харельсон
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+прат
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+форд
+-noun-en
+ford
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+снайдер
+@surname @male ^director ^американец ^человек
+
+&animated
+-noun-mas
+николсон
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+стилер
+@surname @male ^actor ^director ^американец ^человек
+
+&animated
+-noun-mas
+броуди
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+хоук
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+мортенсен
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+крэнстон
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+бролин
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+костнер
+@surname @male ^actor ^director ^американец ^человек
+
+&animated
+-noun-mas
+рурк
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+траволта
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+магуайер
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+бриджес
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+линч
+@surname @male ^director ^американец ^человек
+
+&animated
+-noun-mas
+дуглас
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+китон
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+кубрик
+@surname @male ^director ^американец ^человек
+
+&animated
+-noun-mas
+аранофски
+@surname @male ^director ^американец ^человек
+
+&animated
+-noun-mas
+мюрей
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+галифианакис
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+фрейзер
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+суэйзи
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+родригес
+-noun-mas-short
+родригез
+@surname @male ^director ^американец ^человек
+
+&animated
+-noun-mas
+гир
+@surname @male ^actor ^американец ^человек
+
+&animated
+-noun-mas
+харди
+-noun-en
+hardy
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+бэйл
+-noun-mas-short
+бейл
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+стэтхэм
+-noun-mas-short
+стетхэм
+-noun-mas-short-dim
+стетхем
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+нолан
+-noun-en
+nolan
+@surname @male ^director ^британец ^человек
+
+&animated
+-noun-mas
+батлер
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+ричи
+@surname @male ^actor ^director ^британец ^человек
+
+&animated
+-noun-mas
+нисон
+-noun-en
+neeson
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+крэйг
+-noun-mas-short
+крейг
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+олдман
+-noun-mas-short
+олдмэн
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+макгрэгор
+-noun-mas-short
+макгрегор
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+файнс
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+хопкинс
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+рикман
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+маккелен
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-mas
+кейн
+@surname @male ^actor ^британец ^человек
+
+&animated
+-noun-fem
+йохансон
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+джоли
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+энистон
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+херд
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+фокс
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+ларсон
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+сайфред
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+диас
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+буллок
+-noun-fem-short
+баллок
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+честейн
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+честейн
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+салдана
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+робертс
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+стрип
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+лохан
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+данст
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+олсен
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+лопес
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+пэлтроу
+-noun-fem-short
+пелтроу
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+пфайфер
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+уивер
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+фостер
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-mas
+вачовски
+@surname ^director ^американец ^человек
+
+&animated
+-noun-fem
+турман
+@surname @female ^actor ^американец ^человек
+
+&animated
+-noun-fem
+найтли
+@surname @female ^actor ^британец ^человек
+
+&animated
+-noun-fem
+уинслет
+@surname @female ^actor ^британец ^человек
+
+&animated
+-noun-fem
+бекинсейл
+@surname @female ^actor ^британец ^человек
+
+&animated
+-noun-fem
+блант
+@surname @female ^actor ^британец ^человек
+
+&animated
+-noun-fem
+картер
+@surname @female ^actor ^британец ^человек
+
+&animated
+-noun-fem
+епифанцев
+@surname @male ^actor ^русский ^человек
+
+&animated
+-noun-fem
+козловский
+@surname @male ^actor ^русский ^человек
+
+&animated
+-noun-fem
+хабенский
+@surname @male ^actor ^русский ^человек
+
+&animated
+-noun-fem
+безруков
+@surname @male ^actor ^русский ^человек
+
+&animated
+-noun-fem
+машков
+@surname @male ^actor ^русский ^человек
+
+&animated
+-noun-fem
+бондарчук
+@surname @male ^actor ^director ^русский ^человек
+
+&animated
+-noun-fem
+быков
+@surname @male ^director ^русский ^человек
+
+&animated
+-noun-fem
+балабанов
+@surname @male ^director ^русский ^человек
+
+&animated
+-noun-fem
+охлобыстин
+@surname @male ^actor ^русский ^человек
+
+&animated
+-noun-fem
+бодров
+@surname @male ^actor ^русский ^человек
+
+&animated
+-noun-fem
+крыжовников
+@surname @male ^director ^русский ^человек
+
+&animated
+-noun-fem
+звягинцев
+@surname @male ^director ^русский ^человек
+
+&animated
+-noun-fem
+такровский
+@surname @male ^director ^русский ^человек
+
+&animated
+-noun-fem
+найшуллер
+@surname @male ^director ^русский ^человек
+
+&animated
+-noun-fem
+невский
+@surname @male ^actor ^director ^русский ^человек
+
+&animated
+-noun-fem
+пореченков
+@surname @male ^actor ^русский ^человек
+
+&animated
+-noun-fem
+дюжев
+@surname @male ^actor ^русский ^человек
+
+&animated
+-noun-fem
+кончаловский
+@surname @male ^director ^русский ^человек
+
+&animated
+-noun-fem
+гайдай
+@surname @male ^director ^русский ^человек
+
+&animated
+-noun-fem
+рязанов
+@surname @male ^director ^русский ^человек

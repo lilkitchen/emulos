@@ -1,0 +1,298 @@
+//
+// cities.vocab
+//
+
+-noun-mas
+город
+города
+-noun-dim
+городок
+городки
+-noun-mas-off
+городишка
+городишки
+-noun-en
+city
+-noun-en-dim
+town
+-adj
+городской/ая/ое/ие
+@in
+
+-noun-fem
+москва
+-noun-en
+moscow
+-adj
+московский/ая/ое/ие
+^city #russia
+
+-noun-mas
+питер
+-noun-en
+piter
+-adj
+питерский/ая/ое/ие
+^city #russia
+
+-noun-mas
+екатеринбург
+-noun-mas-short
+екб екб екб екб екб екб
+-noun-en
+yekaterinburg
+-noun-en-short
+ekb
+-adj
+екатеринбургский/ая/ое/ие
+^city #russia @visited
+
+-noun-fem
+казань
+-noun-en
+kazan
+-adj
+казанский/ая/ое/ие
+^city #russia
+
+-noun-mas
+новосибирск
+-noun-mas-short
+новосиб
+-noun-en
+novosibirsk
+-adj
+новосибирский/ая/ое/ие
+^city #russia
+
+-noun-mas
+берлин
+-noun-en
+berlin
+-adj
+берлинский/ая/ое/ие
+^city #germany
+
+-noun-mas
+париж
+-noun-en
+paris
+-adj
+парижский/ая/ое/ие
+^city #france
+
+-noun-mas
+ньюйорк
+-noun-en
+newyork
+^city #usa
+
+-noun-mas
+вашингтон
+-noun-en
+washington
+^city #usa
+
+-noun-mas
+чикаго
+-noun-en
+chicago
+-adj
+чикагский/ая/ое/ие
+^city #usa
+
+-noun-mas
+дрезден
+-noun-en
+dresden
+^city #germany
+
+-noun-mas
+франкфурт
+-noun-en
+frankfurt
+^city #germany
+
+-noun-mas
+ростов
+-noun-en
+rostov
+-adj
+ростовский/ая/ое/ие
+^city #russia
+
+-noun-mas
+брянск
+-noun-en
+bryansk
+-adj
+брянский/ая/ое/ие
+^city #russia
+
+-noun-mas
+курган
+-noun-en
+kurgan
+-adj
+курганский/ая/ое/ие
+^city #russia
+
+-noun-mas
+челябинск
+-noun-fem-short
+челяба
+-noun-en
+chelyabinsk
+-adj
+челябинский/ая/ое/ие
+^city #russia
+
+-noun-fem
+тюмень
+-noun-en
+tyumen
+-adj
+тюменьский/ая/ое/ие
+^city #russia
+
+-noun-mas
+карпинск
+-noun-en
+karpinsk
+-adj
+карпинский/ая/ое/ие
+^town #russia
+
+-noun-mas
+краснотурьинск
+-noun-mas-short
+краснотур
+-noun-en
+krasnoturinsk
+-adj
+краснотурьинский/ая/ое/ие
+^town @in #russia
+
+-noun-mas
+серов
+-noun-en
+serov
+-adj
+серовский/ая/ое/ие
+^town #russia
+
+-noun-mas
+североуральск
+^town #russia
+
+-noun-mas
+полевской
+^town #russia
+
+-noun-mas
+реж
+^town #russia
+
+-noun-mas
+токио
+-noun-en
+tokio
+^city #japan
+
+-noun-mas
+пекин
+-noun-en
+beijin
+^city #china
+
+-noun-mas
+рим
+-noun-en
+rome
+-adj
+римский/ая/ое/ие
+^city #italy
+
+-noun-fem
+флоренция
+-noun-en
+florence
+^city #italy
+
+-noun-fem
+венеция
+-noun-en
+venice
+-adj
+венецианский/ая/ое/ие
+^city #italy
+
+-noun-mas
+мадрид
+-noun-en
+madrid
+^city #spain
+
+-noun-mas
+калининград
+-noun-en
+kaliningrad
+-adj
+калининградский/ая/ое/ие
+^city #russia
+
+-noun-mas
+волгоград
+-noun-en
+volgograd
+-adj
+волгоградский/ая/ое/ие
+^city #russia
+
+-noun-mas
+киров
+-noun-en
+kirov
+-adj
+кировский/ая/ое/ие
+^city #russia
+
+-noun-fem
+калуга
+-noun-en
+kaluga
+-adj
+калужский/ая/ое/ие
+^city #russia
+
+-noun-mas
+грозный
+-noun-en
+grozny
+-adj
+грозненский/ая/ое/ие
+^city #russia
+
+-noun-fem
+пермь
+-noun-en
+perm
+-adj
+пермский/ая/ое/ие
+^city #russia
+
+-noun-fem
+тверь
+-noun-en
+tver
+-adj
+тверской/ая/ое/ие
+^city #russia
+
+-noun-fem
+тула
+-noun-en
+tula
+-adj
+тульский/ая/ое/ие
+^city #russia

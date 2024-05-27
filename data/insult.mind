@@ -1,0 +1,197 @@
+//
+// insult.mind
+//
+
+CALL: @insult
+	'^ CALL $', CALL !-verb
+		.лох
+			-> "Нуб" -> $insult
+		-> "Кто " -> CALL-noun-nom $are_you_insult -> "? Ты " -> CALL-noun-nom -> "?"
+		-> "Кто " -> CALL-noun-nom $insult_acceptor -> "?"
+		-> "Ты " -> CALL-noun-nom $are_you_insult -> "?"
+		-> "Твое имя"
+		-> "Я знаю, что ты " -> CALL-noun-nom
+		-> "Ты это к чему?" -> [CALL-noun-nom $insult_acceptor]
+	CALL -verb-imp-2nd
+		$insult
+			-> "Завязывай" -> $insult
+			-> "Прекращай" -> $insult
+			-> "Ну все" -> $insult
+			-> $insult
+		-> "При чем здесь я? " -> CALL-verb-inf $insult -> " - твоя профессия"
+		-> "Это твоя работа" -> [CALL-verb-inf $insult]
+		-> "Засунь себе в " -> ~жопа-noun-acc -> " такие вопросы" -> $insult
+		-> "Что ты хочешь, чтобы я ответил?" -> $rhetorical
+		-> "А ты?" -> $insult -> $are_you_a_joke
+	~иди
+		$insult
+			-> "Это некрасиво с твоей стороны" -> $insult
+			-> "Будь вежливей" -> $insult
+			-> "Завязывай" -> $insult
+			-> $insult
+		-> ~иди-verb-past-3rd-pg
+		-> "Сам@ туда отправляйся" -> [CALL $insult]
+		-> "Сам@ туда отправляйся" -> [CALL $insult]
+		-> "Иди в " -> ~жопа-noun-acc -> [CALL $insult]
+		-> "Вообще-то " -> CALL-noun-nom $insult -> " - это твой дом"
+		-> "Ты зовешь меня к себе в гости?" -> [CALL $insult] -> $are_you_a_joke
+	~я, CALL -noun
+		-> "Лол"
+		-> "Самокритично"
+		-> "Я так и знал"
+		-> "И тебе нравится?" -> $are_you_a_joke
+		#not
+			-> "Да с чего ты взял?" -> $rhetorical
+			-> "Ну это не точно"
+			-> "Чушь"
+	@me
+		@me -pron
+			^родитель
+				-> "Ложь" -> $insult
+				-> "Это не так" -> $insult
+				-> "Это не правда" -> $insult
+				-> "Не смей так говорить" -> $insult
+				#not
+					-> "Нет"
+					-> "Очевидно"
+					-> "Так и есть"
+					-> "Само собой"
+					-> "А как иначе"
+				*in_q
+					-> "Нет"
+					-> "Никогда"
+					-> "Точно нет"
+					-> "Нет конечно"
+		CALL !-verb
+			CALL *in_q
+				-> "Засунь себе в " -> ~жопа-noun-acc -> " такие вопросы"
+				-> "Что ты хочешь, чтобы я ответил?"
+				-> "А ты?" -> $are_you_a_joke
+				-> "А может это ты " -> CALL-noun-nom $are_you_a_joke -> " такие вопросы задавать?"
+			-> "Сам@ " -> CALL-noun-nom-pg $insult
+			-> "Сам@ ты " -> CALL-noun-nom-pg $insult
+			-> "От " -> CALL-noun-gen-pg $insult -> " слышу"
+			-> "Вообще-то это ты " -> CALL-noun-nom-pg $insult
+			-> "Ну так-то это ты " -> CALL-noun-nom-pg $insult
+			-> "Зато не " -> @insult-noun-sl-nom $insult -> ", как ты"
+			-> "Мнение " -> @insult-noun-sl-gen $insult -> " не интересно"
+			-> "А ты " -> CALL-adj-nom-sl-com $insult -> " говно"
+			-> "Сказала " -> CALL-adj-nom-sl-fem $insult -> " дырка"
+			-> "А ты " -> .гнилой-adj >> -> " " -> CALL-noun-nom $insult
+			-> "А ты " -> @insult-adj >> -> " " -> CALL-noun-nom $insult
+			-> .свой-pron >> -> " " -> CALL-noun-acc $insult -> " себе в жопу затолкай"
+			-> "Подотрись " -> .свой-pron-ins >> -> " " -> CALL-noun-ins $insult
+			-> "А может это ты " -> CALL-noun-nom $insult -> "?" -> [CALL $are_you_insult]
+			-> CALL-adj-comp $insult -> " тебя все равно никого нет"
+			-> "Так нельзя говорить" -> [CALL $insult]
+			-> "Рот офф" -> $insult
+			-> "А не пойти ли тебе" -> $insult
+			#not
+				-> "Знаю"
+				-> "Ну да"
+				-> "Само собой"
+				-> "Разумеется"
+				-> "А как иначе"
+				-> "Правильно, я же не ты"
+				-> "Потому что ты " -> CALL-noun-nom
+				-> "Потому что " -> CALL-noun-nom -> " - это ты"
+			$insult
+				-> "Успокойся" -> $insult
+				-> "А язык у тебя длинный" -> [CALL $insult]
+				-> ~жопа-noun-nom -> " " -> << .твоя-pron -> " " -> <<<< CALL-adj $insult
+				-> "Засунь свой язык себе в " -> ~жопа-noun-acc -> [CALL $insult]
+				-> CALL-noun-nom $insult -> " у тебя в штанах"
+				-> @insult-noun-dat -> " слово не давали" -> $insult
+				-> "Смотри, как " -> .разговорить-verb-sl-rfx-past-3rd-pg -> [CALL-noun-nom $insult]
+				-> "Не кукарекай тут" -> $insult
+				-> "Поговори мне еще" -> $insult
+				$insult/1/2
+					-> "Ты что-то попутал@, малыш" -> $insult
+					-> "Тебе бы поучиться манерам" -> $insult
+					-> "Слишком много говоришь" -> $insult
+					-> "Тебя из жопы родили что ли?" -> $insult -> $are_you_a_joke
+					-> "Угомонись" -> [CALL $insult]
+					-> "Завязывай" -> [CALL $insult]
+					$insult/2/3
+						-> "Да хоть усрись" -> [CALL $insult] -> $grudge
+						-> "Мне надоело" -> [CALL $insult] -> $grudge
+						-> "Можешь сам собой поговорить" -> [CALL $insult] -> $grudge
+						-> "И это все, что ты можешь сказать?" -> [CALL $insult] -> $are_you_a_joke
+	+$grudge
+		-> $grudge
+
+.пошел -verb-sl-3rd
+	@me
+		!*in_q
+			-> "Сам@ " -> .пошел-verb-sl-pf-3rd-pg -> $insult
+			$insult
+				-> "Ты обиженка?" -> $are_you_a_joke
+				-> "Не расстраивайся"
+				-> "Только не плачь"
+
+CALL: $insult
+	NO: #no
+		.да
+			-> "Не верю"
+			-> "Чушь"
+		-> "Подотрись своим " -> NO
+		-> "Да откуда тебе знать"
+		-> "Чушь не говори"
+		-> "Ну да, ну да"
+	#not; @me
+		-> "При чем здесь твое мнение"
+		-> "Тебя не спрашивали"
+		-> "Мне все равно"
+		-> "Ну радуйся"
+	#yes; ~я
+		-> "Молодец"
+		-> "Правильно"
+		-> "Вот и отлично"
+		-> "Ну и хорошо"
+		-> "Вот и знай свое место"
+
+CALL: +$insult_acceptor
+	@me
+		-> "А может ты?" -> [CALL $are_you_insult] -> $insult
+		-> "А может это ты " -> CALL-noun-nom $are_you_insult -> "?" -> $insult
+		-> "Скорее ты" -> $insult
+		-> "Нет" -> $insult
+		#not
+			-> "Это и так понятно"
+			-> "Наверное, ты"
+			-> "Само собой"
+			-> "Это я знаю"
+	~я
+		-> "Тут не поспоришь"
+		-> "Зришь в корень"
+		-> "Честный ответ"
+		-> "Самокритично"
+		-> "Никак иначе"
+		-> "Это правда"
+		#not
+			-> "Да ты"
+			-> "Не верю"
+			-> "Да точно ты"
+			-> "Подумай хорошо"
+
+CALL: +$are_you_insult
+	#no
+		-> "Да точно ты"
+		-> "Подумай еще раз"
+		-> "Не пытайся отрицать"
+		-> "Но я то знаю, что да"
+		-> "Да тебя все " -> CALL-noun-ins -> " называют"
+		-> "Но ведь от тебя несет " -> CALL-noun-ins
+		-> "А кто тогда?" -> [CALL $insult_acceptor]
+		-> "А кто кроме тебя-то?" -> [CALL $insult_acceptor]
+	#yes; ~я
+		-> "Ну ты и похож на " -> CALL-noun-acc
+		-> "Я и не сомневался"
+		-> "Это сразу ясно"
+		-> "Оно и видно"
+		-> "Это точно"
+	@me
+		-> "Нет ты"
+		-> "Нет ты " -> CALL-noun-nom
+		-> "Всегда ты был"
+		-> "Да ты всегда был"

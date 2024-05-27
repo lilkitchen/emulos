@@ -1,0 +1,345 @@
+//
+// music.vocab
+//
+
+-noun-fem
+музыка
+-noun-en
+music
+-adj
+музыкальный/ая/ое/ые
+музыкальнее
+-verb
+музицировать музицируй музицировала
+музицирую музицируешь музицирует музицировал
+музицируем музицируете музицируют музицировали
+@prefer
+
+-noun-fem
+песня
+песни
+-noun-fem-dim
+песенка
+песенки
+-adj
+песенный/ая/ое/ые
+#music
+
+-noun-mas
+трэк
+трэки
+-noun-mas-short
+трек
+треки
+-noun-mas-dim
+трэчок
+трэчки
+-noun-mas-short-dim
+тречок
+тречки
+-noun-en
+track
+-adj
+трековый/ая/ое/ые
+#music
+
+-noun-mas
+клип
+клипы
+-noun-mas-short
+клипец
+-noun-mas-dim
+клипачок
+клипачки
+-noun-en
+clip
+-adj
+клиповый/ая/ое/ые
+#music
+
+&animated
+-noun-mas
+музыкант
+музыканты
+-noun-mas-dim
+музыкантик
+музыкантики
+-noun-mas-off
+музыкантишка
+музыкантишки
+-noun-en
+musician
+-adj
+музыкантский/ая/ое/ие
+#music
+
+-noun-mas
+жанр
+жанры
+-noun-en
+genre
+
+&animated
+-noun-mas
+рэпер
+рэперы
+-noun-mas-off
+рэперок
+рэперки
+-noun-en
+rapper
+#music ^музыкант
+
+-noun-mas
+рэп
+-noun-mas-dim
+рэпчик
+-noun-mas-short
+реп
+-noun-mas-short-dim
+репчик
+-noun-en
+rap
+-verb
+рэповать рэпуй рэповала
+рэпую рэпуешь рэпует рэповал
+рэпуем рэпуете рэпуют рэповали
+-verb-en
+rap rapped rapped
+^music ^genre @music_genre @prefer
+
+-noun-mas
+блюз
+-noun-en
+blues
+-adj
+блюзовый/ая/ое/ые
+^music ^genre @music_genre
+
+-noun-mas
+рок
+-noun-en
+rock
+-adj
+роковый/ая/ое/ые
+^music ^genre @music_genre
+
+-noun-mas
+фолк
+-noun-en
+folk
+-adj
+фолковый/ая/ое/ые
+^music ^genre @music_genre
+
+-noun-mas
+джаз
+-noun-en
+jazz
+-adj
+джазовый/ая/ое/ые
+^music ^genre @music_genre
+
+-noun-mas
+поп
+-noun-off-fem
+попса
+-noun-en
+pop
+-adj
+попсовый/ая/ое/ые
+попсовее
+^music ^genre @music_genre @scorn
+
+-noun-mas
+хардрок
+-noun-en
+hardrock
+^music ^genre @music_genre
+
+-noun-mas
+хардкор
+-noun-en
+hardcore
+^music ^genre @music_genre
+
+-noun-mas
+рокнролл
+-noun-en
+rocknroll
+^music ^genre @music_genre
+
+-noun-mas
+шансон
+-noun-mas-off
+блатняк
+-noun-en
+chanson
+^music ^genre @music_genre
+
+-noun-mas
+фанк
+-noun-en
+funk
+^music ^genre @music_genre
+
+-noun-com
+диско
+-noun-en
+disco
+^music ^genre @music_genre
+
+-noun-mas
+метал
+-noun-en
+metal
+^music ^genre @music_genre
+
+-noun-mas
+фонк
+-noun-en
+phonk
+^music ^genre @music_genre
+
+-noun-com
+регги
+-noun-en
+reggae
+^music ^genre @music_genre
+
+-noun-com
+кантри
+-noun-en
+country
+^music ^genre @music_genre
+
+-noun-mas
+хипхоп
+-noun-en
+hiphop
+^music ^genre @music_genre @prefer
+
+-noun-mas
+трэп
+-noun-en
+trap
+^music ^genre @music_genre
+
+-noun-mas
+гранж
+-noun-en
+grunge
+-adj
+гранжевый/ая/ое/ые
+@music_genre #music
+
+-noun-mas
+кейпоп
+-noun-mas-short
+кпоп
+-noun-en
+kpop
+^music ^genre @music_genre @scorn
+
+-noun-fem
+мелодия
+мелодии
+-noun-en
+melody
+-adv
+мелодично
+-adj
+мелодичный/ая/ое/ые
+мелодичнее
+#music
+
+// Names
+
+&animated
+-noun-mas
+эминем
+эминемы
+-noun-mas-off
+эминемка
+эминемки
+-noun-mas-dim-off
+эминемчик
+эминемчики
+-noun-en
+eminem
+@name ^musician ^rapper @like ^american
+
+&animated
+-noun-mas
+дрэ
+-noun-en
+dre
+@name ^musician ^rapper ^nigger @like ^american
+
+&animated
+-noun-mas
+доктор
+-noun-en
+doctor
+.dre
+
+&animated
+-noun-mas
+снуп
+снупы
+-noun-en
+snoop
+@name ^musician ^rapper ^nigger ^american
+
+&animated
+-noun-mas
+тупак
+тупаки
+-noun-en
+tupac
+-noun-en-short
+2pac
+@name ^musician ^rapper ^nigger ^american
+
+&animated
+-noun-mas
+дрэйк
+дрэйки
+-noun-en
+drake
+@name ^rapper ^nigger ^american
+
+&animated
+-noun-mas
+кендрик
+-noun-en-mas
+kendrick
+@name ^rapper ^nigger ^american
+
+&animated
+-noun-mas
+ламар
+-noun-en
+lamar
+@surname ^rapper ^nigger ^american
+
+&animated
+-noun-mas
+кени
+-noun-mas-short
+кенни
+-noun-en
+kanye
+@name ^rapper ^nigger ^american
+
+&animated
+-noun-mas
+морриконе
+-noun-en
+morricone
+@surname ^musician ^italian
+
+&animated
+-noun-mas
+цой
+@surname ^musician ^russian
