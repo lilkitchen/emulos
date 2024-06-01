@@ -15,10 +15,10 @@
 #include "emulos.h"
 #include "los.h"
 
-#define argc __argc
-#define argv __argv
+#define argc _argc
+#define argv _argv
 
-int main(int __argc, char **__argv)
+int main(int _argc, char **_argv)
 {
 #ifdef __WIN32__
 	_setmode(_fileno(stdout), _O_BINARY);
